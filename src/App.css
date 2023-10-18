@@ -1,38 +1,321 @@
-.App {
-  text-align: center;
+.web {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.side_menu {
+  background-color: #040440;
+  height: 100vh;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+header {
+  align-items: center;
+  display: flex;
+  color: #EFEFF3;
+  margin-top: 20px;
+  margin-left: 29px;
+  column-gap: 7px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  color: #858AA9;
+  justify-content: space-between;
+  row-gap: 30px;
+  margin-top: 30px;
+  padding: 0px;
+  margin-left: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 7px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  height: 30px;
+  margin-left: 7px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  height: 30px;
+  margin-left: 7px;
+  color: #C9C9D7;
+}
+
+.dull_color {
+  color: #6B6B8A;
+}
+
+.menu_item1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_item {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2D2D69;
+  height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .side_menu {
+    background-color: #040440;
+    height: 100vh;
+    width: 60%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: #F5F6F8;
+}
+
+.heading {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: #626263;
+}
+
+.card_group {
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.cards {
+  height: 120px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.card1_content {
+  height: 80px;
+  background: #DAFFEB;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card2_content {
+  height: 80px;
+  background: #E7DBFF;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card3_content {
+  height: 80px;
+  background: #CDF3FF;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card4_content {
+  height: 80px;
+  background: #FFBDE2;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_dollar {
+  size: 10px;
+}
+
+.earning {
+  size: 1px;
+  font-size: 10px;
+  color: #C3C3C3;
+}
+
+.card_right {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.p_content {
+  padding: 0px;
+  margin: 0px;
+  font-size: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.earn_ratio {
+  color: green;
+}
+
+.order_ratio {
+  color: red;
+}
+
+.balance_ratio {
+  color: red;
+}
+
+.sales_ratio {
+  color: green;
+}
+
+.highchart {
+  margin-right: 40px;
+  margin-top: 20px;
+  height: 270px;
+  display: flex;
+  /* background: green; */
+  margin-left: 40px;
+  justify-content: space-between;
+}
+
+.bar_chart {
+  width: 67%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+.pie_chart {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+rect.highcharts-point {
+  width: 30px;
+}
+
+.menu_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  align-items: center;
+  background: #2D2D69;
+  height: 43px;
+  margin-bottom: 20px;
+  color: #C9C9D7;
+  border-radius: 5px;
+}
+
+.bottom_left {
+  margin-bottom: 20px;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  height: 45px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-left: 3px;
+}
+
+.main_bottom{
+  margin-left: 38px;
+  margin-top: 20px;
+  height: 29%;
+  margin-right: 40px;
+  border-radius:5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product_search{
+  justify-content: space-between;
+  display: flex;
+}
+.sell_left{
+  display: flex;
+  column-gap:30px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.product_sell{
+  margin-top:20px;
+  margin-left:20px;
+}
+.product_details{
+  display: flex;
+    justify-content: space-between;
+}
+.product_name{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.lab{
+  color:#C1C3CA;
+}
+.product{
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  height: 18px;
+  background: white;
+}
+.product_description{
+  display: flex;
+  margin-right: 30px;
+  column-gap: 110px;
+  margin-top: 20px;
+  color:#C1C3CA;
+}
+.product_name{
+  font-size: 10px;
+  color:#C1C3CA;
 }
