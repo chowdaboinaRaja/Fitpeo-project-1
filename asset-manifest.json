@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Fitpeo-project-1/static/css/main.1141471f.css",
+    "main.js": "/Fitpeo-project-1/static/js/main.e590e133.js",
+    "static/js/787.ec704a7a.chunk.js": "/Fitpeo-project-1/static/js/787.ec704a7a.chunk.js",
+    "static/media/raja.jpg": "/Fitpeo-project-1/static/media/raja.5839383f11c882dcfcfd.jpg",
+    "index.html": "/Fitpeo-project-1/index.html",
+    "main.1141471f.css.map": "/Fitpeo-project-1/static/css/main.1141471f.css.map",
+    "main.e590e133.js.map": "/Fitpeo-project-1/static/js/main.e590e133.js.map",
+    "787.ec704a7a.chunk.js.map": "/Fitpeo-project-1/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1141471f.css",
+    "static/js/main.e590e133.js"
+  ]
+}
